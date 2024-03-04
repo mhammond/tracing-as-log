@@ -1,0 +1,10 @@
+[workspace]
+
+resolver = "2"
+
+members = [
+    "first_lib",
+    "second_lib",
+    "app",
+    "log_lib",
+]

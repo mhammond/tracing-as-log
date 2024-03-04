@@ -1,0 +1,12 @@
+[package]
+name = "log_lib"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# DOES NOT use tracing!
+log = "0.4"
+
+
+[dev-dependencies]
+env_logger = { version = "0.10", default-features = false }
